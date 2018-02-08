@@ -8,4 +8,4 @@ http://localhost:62790/api/email/send/ (POST)
 http://localhost:62790/api/email/test/ (GET) - returns test results as an XML
 
 The only NuGet package required for this project is RestSharp.
-This project uses JQuery and Bootstrap.
+This project uses JQuery and Bootstrap. I made the project as simple as possible, but included a TDD unit.

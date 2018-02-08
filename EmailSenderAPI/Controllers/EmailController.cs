@@ -179,7 +179,7 @@ namespace EmailSenderAPI.Controllers
                 client.DeliveryMethod = SmtpDeliveryMethod.Network;
                 client.UseDefaultCredentials = false;
                 client.Host = "smtp.sendgrid.net";
-                client.Credentials = new System.Net.NetworkCredential("apikey", "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");
+                client.Credentials = new System.Net.NetworkCredential("apikey", "");
                 mail.Subject = email.Subject;
                 mail.Body = email.Message;
                 client.Send(mail);
